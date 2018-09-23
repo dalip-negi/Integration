@@ -1,1 +1,1 @@
-echo "This is the first file committed in git"
+echo "This is the first file committed in git & will run on jenkins"
