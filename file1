@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 echo "This is the first file committed in git"
+=======
+echo "This is the first file committed in git & will run on jenkins"
+>>>>>>> 08f02fb795e2ef59155b9ee3620448e80092195d
