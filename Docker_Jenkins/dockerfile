@@ -5,4 +5,3 @@ RUN apt-get -f install
 RUN apt-get install apache2
 COPY index.html /var/ww/html/
 CMD ["/usr/sbin/apache2","-D","FOREGROUND"]
-EXPOSE 80
