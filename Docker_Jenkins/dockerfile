@@ -1,5 +1,13 @@
+<<<<<<< HEAD
 FROM phusion/baseimage:0.9.19
 MAINTAINER anhducbkhn
 RUN apt-get update && apt-get install -y apache2
 CMD [ "-D","FOREGROUND" ]
+=======
+FROM ubuntu:16.04
+MAINTAINER Dalip Negi
+RUN apt-get update && apt-get install -y apache2
+COPY index.html /var/www/html
+CMD ["/usr/sbin/apache2","-D","FOREGROUND"]
+>>>>>>> acbc540d7cf59ef67fc74a384ee148d37de166fb
 EXPOSE 80
